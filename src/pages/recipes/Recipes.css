@@ -1,0 +1,43 @@
+.container-recipes {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.container-recipes p {
+    padding: 20px 0;
+}
+
+.btn-login {
+    text-align: center;
+}
+
+.details-recipe-content ul li {
+    list-style: inside;
+}
+
+.details-recipe-content ol li {
+    list-style: inside decimal;
+}
+
+@media screen and (min-width: 768px) {
+    .container-recipes {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .container-recipes {
+        width: 1200px;
+    }
+
+    .container-recipes p {
+        padding: 40px 0;
+    }
+
+    .card-recipe-desktop {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

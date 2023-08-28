@@ -1,0 +1,48 @@
+.navlinks {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+.navlinks a {
+    color: #333333;
+    padding: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #4BAF50;
+}
+
+.navlinks a:hover, .navlinks .nav-active {
+    color: #4BAF50;
+}
+
+
+.toggle .burger-bar {
+    width: 30px;
+}
+
+.toggle .close-icon {
+    width: 18px;
+}
+
+.toggle {
+    display: block;
+    position: absolute;
+    right: 40px;
+    top: 50px;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width: 1200px){
+    .toggle {
+        display: none;
+    }
+    .navlinks {
+        flex-direction: row;
+    }
+    .navlinks a {
+        border: none;
+        padding: 0 30px;
+    }
+}

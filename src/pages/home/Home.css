@@ -1,0 +1,146 @@
+#slider {
+    min-height: 300px;
+    background-image: url("../../../../evaluation_dietician/src/assets/home/slider.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#slider h1 {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.about-section {
+    padding: 40px 0;
+}
+
+.about-section .sc-picture {
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+}
+
+.about-section, h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.about-section .content {
+    width: 85%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.btn-about {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.quote {
+    height: 130px;
+    background: #4BAF50;
+    text-align: center;
+    font-size: 25px;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.quote q {
+    width: 60%;
+}
+
+.vegetables-pic {
+    display: none;
+}
+
+.services-section h2 {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.btn-service {
+    margin: 30px 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .about-section .sc-picture {
+        width: 400px;
+    }
+
+    .quote {
+        height: 100px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #slider {
+        min-height: 600px;
+    }
+
+    .about-section {
+        padding: 40px 40px 40px 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .about-section h2 {
+        padding-bottom: 40px;
+    }
+
+    .about-section .sc-picture {
+        width: 400px;
+    }
+
+    .about-section .content {
+        padding: 20px 0 20px 40px;
+    }
+
+    .btn-about {
+        text-align: left;
+        margin-top: 30px;
+    }
+
+    .quote {
+        height: 100px;
+    }
+
+    .vegetables-pic {
+        display: block;
+        width: 240px;
+    }
+
+    .quote {
+        position: relative;
+    }
+
+    .quote .vegetables-pic {
+        position: absolute;
+        right: 50px;
+        bottom: -3px;
+    }
+
+    .card-service {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .services-section h2 {
+        margin-bottom: 30px;
+    }
+
+    .btn-service {
+        padding: 20px 0;
+    }
+
+}

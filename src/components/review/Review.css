@@ -1,0 +1,44 @@
+.review-form input {
+    width: 100%;
+}
+
+.review-form textarea {
+    border-radius: 30px;
+    height: 50px;
+    border: 1px solid #333333;
+    padding-left: 15px;
+    resize: vertical;
+}
+
+.review-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.review {
+    box-shadow: 1px 1px 1px 1px lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.review .fl {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.review .note {
+    padding: 10px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .review-form textarea {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .review-form textarea {
+        width: 100%;
+    }
+}
